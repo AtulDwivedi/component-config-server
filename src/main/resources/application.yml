@@ -1,11 +1,13 @@
----
 spring:
+  application:
+    name: component-eureka-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/AtulDwivedi/quickcart-configuration
-          searchPaths: offers
+          searchPaths: application
+
 server:
   port: 8081
 
