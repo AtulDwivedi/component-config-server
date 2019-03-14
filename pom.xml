@@ -6,9 +6,9 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
-	<groupId>com.quickcart.configserver</groupId>
+	<groupId>com.routinecart</groupId>
 	<artifactId>component-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>component-config-server</name>
