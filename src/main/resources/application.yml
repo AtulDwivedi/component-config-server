@@ -1,15 +1,15 @@
 spring:
-  application:
-    name: component-eureka-server
+  config:
+    name: configserver
   cloud:
     config:
       server:
         git:
           uri: https://github.com/routinecart/routinecart-configuration
-          searchPaths: application
+          searchPaths: application,offers
 
 server:
-  port: 8081
+  port: 8888
 
 management:
   endpoints:
