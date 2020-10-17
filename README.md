@@ -1,1 +1,1 @@
-# component-config-server
+# config-server

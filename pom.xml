@@ -9,9 +9,9 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.routinecart</groupId>
-	<artifactId>component-config-server</artifactId>
+	<artifactId>config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>component-config-server</name>
+	<name>config-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
