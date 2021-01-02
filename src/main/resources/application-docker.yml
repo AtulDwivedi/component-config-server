@@ -1,0 +1,19 @@
+spring:
+  config:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/routinecart/routinecart-configuration
+          searchPaths: application,offers
+
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,bus-refresh
+
